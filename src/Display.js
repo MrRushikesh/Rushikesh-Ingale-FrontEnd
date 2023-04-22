@@ -27,7 +27,7 @@ const Display = (props) => {
                                                 <p className="headline"><i>{item.ads[1].headline}</i></p>
                                                 <p className="primaryText"><i>{item.ads[0].primaryText}</i></p>
                                                 <p className="desc"><b>Description -: </b>{item.ads[4].description}</p><br/>
-                                                <a to={item.url}  target="_blank"><button className="btn btn-primary btnsize">{item.ads[2].CTA}</button></a>
+                                                <a href={item.url}  target="_blank"><button className="btn btn-primary btnsize">{item.ads[2].CTA}</button></a>
                                             </div>  
                                         </div>
                                     </div>
